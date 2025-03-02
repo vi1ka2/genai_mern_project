@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   async function reviewCode(){
-      const response = await axios.post("https://genai-mern-project-1.onrender.com", {code});
+      const response = await axios.post("https://genai-mern-project-1.onrender.com/get-review", {code});
       setReview(response.data);
   }
 
