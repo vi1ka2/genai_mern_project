@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   async function reviewCode(){
-      const response = await axios.post("https://genai-mern-project-1.onrender.com", {code});
+      const response = await axios.post("//http://localhost:3000/ai/get-review/", {code});
       setReview(response.data);
   }
 
@@ -69,4 +69,4 @@ function App() {
 }
 
 export default App;
-//http://localhost:3000/ai/get-review/
+
