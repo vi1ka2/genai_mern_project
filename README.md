@@ -64,8 +64,9 @@ An AI-powered web application built with the MERN Stack that leverages the Groq 
    ```
 
 6. Open the app in your browser:
-   - Frontend: `http://localhost:5173`
-   - Backend: `http://localhost:3000/ai/get-review`
+   https://genai-mern-project-2.onrender.com/
+   ![image](https://github.com/user-attachments/assets/f4762c5c-8eb0-4599-a87d-917cd721df45)
+
 
 ## License:
 
