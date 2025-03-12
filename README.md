@@ -4,7 +4,6 @@ An AI-powered web application built with the MERN Stack that leverages the Groq 
 
 ## Tech Stack:
 
-- **MongoDB** – NoSQL database for storing AI interactions
 - **Express.js** – Backend framework for handling requests
 - **React.js** – Frontend library for building dynamic user interfaces
 - **Tailwind CSS** – Utility-first CSS framework for responsive design
@@ -17,7 +16,6 @@ An AI-powered web application built with the MERN Stack that leverages the Groq 
 ### Prerequisites:
 
 - [Node.js](https://nodejs.org/en) (v16 or higher)
-- [MongoDB](https://www.mongodb.com/) (Local or Cloud instance)
 - [Groq API Key](https://groq.com/docs)
 - [Tailwind CSS](https://v3.tailwindcss.com/docs/guides/vite)
 
