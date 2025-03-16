@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const app = require('./app'); // your express app from src/app.js
+const app = require('./src/app'); // your express app from src/app.js
 
 // Serve static files from the frontend build folder
 app.use(express.static(path.join(__dirname, 'frontend/build')));
